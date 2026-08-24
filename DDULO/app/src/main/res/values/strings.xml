@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DDULO</string>
+
+    <!-- 온보딩 -->
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">다음</string>
+    <string name="onboarding_start">시작하기</string>
+
+    <!-- 온보딩 1페이지: 실시간 열차 & 플랫폼 혼잡도 -->
+    <string name="onboarding_title_1">실시간 열차 &amp; 플랫폼 혼잡도</string>
+    <string name="onboarding_desc_1">혼잡도를 미리 확인하고\n최적의 경로를 검색해보세요</string>
+
+    <!-- 온보딩 2페이지: 대기 시간 & 탑승 가능성 -->
+    <string name="onboarding_title_2">대기 시간 &amp; 탑승 가능성</string>
+    <string name="onboarding_desc_2">복작한 플랫폼이 아닌\n따뜻한 건물 안에서 기다릴 수 있어요</string>
+
+    <!-- 온보딩 3페이지: 베스트 게이트 & 최적 게이트 -->
+    <string name="onboarding_title_3">베스트 게이트 &amp; 최적 게이트</string>
+    <string name="onboarding_desc_3">혼잡해도 탑승할 수 있는 게이트,\n그리고 앉아갈 수 있는 게이트까지!</string>
+</resources>

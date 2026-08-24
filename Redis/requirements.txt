@@ -1,0 +1,6 @@
+redis==5.0.1
+python-dotenv==1.0.0
+paho-mqtt==1.6.1
+pandas
+fastapi
+uvicorn

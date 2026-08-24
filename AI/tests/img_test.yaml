@@ -1,0 +1,36 @@
+# 통제 테스트 설정
+# 다양한 신뢰도 임계값으로 정확도 비교
+
+test_config:
+  description: "Detection 신뢰도별 정확도 테스트"
+  
+  # 테스트할 신뢰도 임계값들
+  confidence_thresholds:
+    - 0.1   # 매우 낮음
+    - 0.15  # 낮음
+    - 0.2   # 중간-낮음
+    - 0.25  # 기준
+    - 0.3   # 중간
+    - 0.35  # 중간-높음
+    - 0.4   # 높음
+    - 0.45  # 매우 높음
+  
+  # 모델 설정
+  model:
+    path: "../models/yolov8m.pt"
+    classes: [0]  # 0: Person (사람만 탐지)
+  
+  # 출력 설정
+  output:
+    csv_filename: "accuracy_test_{timestamp}.csv"
+    save_processed_images: true
+    
+  # 분석 설정
+  analysis:
+    compare_baseline: 0.25  # 기준이 될 신뢰도
+    metrics:
+      - "total_people"       # 총 탐지 인원
+      - "avg_confidence"     # 평균 신뢰도
+      - "processing_time"    # 처리 시간
+      - "zone_distribution" # 구역별 분포
+    note: "전 범위 신뢰도 테스트 - 0.1부터 0.45까지"

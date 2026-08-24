@@ -1,0 +1,43 @@
+ROI_SETTINGS:
+  9-1:
+  - !!python/tuple
+    - 1565
+    - 1078
+  - !!python/tuple
+    - 388
+    - 1076
+  - !!python/tuple
+    - 621
+    - 800
+  - !!python/tuple
+    - 1481
+    - 800
+  - !!python/tuple
+    - 1568
+    - 1077
+  9-2:
+  - !!python/tuple
+    - 601
+    - 734
+  - !!python/tuple
+    - 1323
+    - 743
+  - !!python/tuple
+    - 1267
+    - 544
+  - !!python/tuple
+    - 782
+    - 519
+  9-3:
+  - !!python/tuple
+    - 1172
+    - 519
+  - !!python/tuple
+    - 792
+    - 499
+  - !!python/tuple
+    - 816
+    - 430
+  - !!python/tuple
+    - 1170
+    - 442
